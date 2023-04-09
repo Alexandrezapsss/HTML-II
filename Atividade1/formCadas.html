@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Site Pokémon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="menu-principal">
+            <a href="index.html">Início</a>
+            <a href="formCadas.html">Login/Cadastro</a>
+            <a href="formTreinador.html">Formulário Pokémon</a>
+        </nav>
+        <img src="image/pokemon.png" alt="pokebola" class="pokemonImg">
+    </header>
+    <div class="conteudoImg">
+        <img src="image/pokemons.png" alt="Imagem Pokémon">
+    </div>
+    <div class="container">
+        <div class="enfeite">
+            <h1>Formulários</h1>
+            <img src="image/pokebola.png" alt="Imagem Pokebola">
+        </div>
+        <!-- formulário de login -->
+        <div class="TelaLogin"><!-- Plano aqui é montar em 2 partes -->
+            <form>
+                <h2>Login</h2>
+                <label for="id-mestre">ID Mestre:</label>
+                <input type="text" id="id-mestre" name="id-mestre" required><br><br><br>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required><br><br><br>
+                <input type="submit" value="Entrar">
+            </form>
+        </div>
+        <!-- formulário de cadastro -->
+        <div class="TelaCadastro">
+            <form>
+                <h2>Cadastro</h2>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br><br><br>
+                <label for="id-mestre">ID Mestre:</label>
+                <input type="text" id="id-mestre" name="id-mestre" required><br><br><br>
+                <label for="regiao">Região de atuação:</label>
+                <select id="regiao" name="regiao" required>
+                    <option value="">Selecione uma opção</option>
+                    <option value="Kanto">Kanto</option>
+                    <option value="Johto">Johto</option>
+                    <option value="Hoenn">Hoenn</option>
+                    <option value="Sinnoh">Sinnoh</option>
+                    <option value="Unova">Unova</option>
+                    <option value="Kalos">Kalos</option>
+                </select><br><br><br>
+                <input type="submit" value="Cadastrar">
+            </form>
+        </div>
+        <footer>
+            <p>Página Feita por Alexandre Queiroz da Silva &COPY;</p>
+            <img src="image/pokebola.png" alt="Imagem Pokebola">
+        </footer>
+    </div>
+</body>
+
+</html>

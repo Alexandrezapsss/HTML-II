@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário de Oportunidade de Vendas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMF8VNBRlBXX4C0jsR7pYksKMhKQCLZlMKVQ&usqp=CAU"
+            alt="Minha imagem">
+    </header><br><br>
+    <div id="corpo">
+        <form>
+            <label>
+                <input type="checkbox" name="particular"> Particular
+            </label>
+            <label>
+                Nome da Oportunidade
+                <input type="text" name="nome">
+            </label>
+            <label>
+                Valor
+                <input type="number" name="valor">
+            </label>
+            <label>
+                Fase
+                <select name="fase">
+                    <option value="prospeccao">Prospecção</option>
+                    <option value="qualificacao">Qualificação</option>
+                    <option value="apresentacao">Apresentação</option>
+                    <option value="negociacao">Negociação</option>
+                    <option value="fechamento">Fechamento</option>
+                </select>
+            </label>
+            <label>
+                Tipo
+                <select name="tipo">
+                    <option value="novo_negocio">Novo Negócio</option>
+                    <option value="venda_adicional">Venda Adicional</option>
+                    <option value="renovacao_contrato">Renovação de Contrato</option>
+                    <option value="venda_cruzada">Venda Cruzada</option>
+                </select>
+            </label>
+            <button type="submit">Salvar</button>
+        </form>
+    </div>
+</body>
+
+</html>

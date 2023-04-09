@@ -1,0 +1,91 @@
+header {
+  background-color: #ff0000;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.menu-principal a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.menu-principal a:hover {
+  background-color: #af2929;
+}
+
+/* Estilos CSS para o conteúdo */
+.conteudoImg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.conteudoImg img {
+  width: 650px;
+  height: 180px;
+}
+
+.pokemonImg {
+  width: 200px;
+  height: 50px;
+}
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+.TelaLogin {
+  background-color: #ff0000;
+  color: white;
+  text-align: center;
+  border-radius: 50px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.TelaCadastro {
+  background-color: #ff0000;
+  color: white;
+  text-align: center;
+  border-radius: 50px;
+  margin: 0 auto;
+}
+.TelaConteudo{
+    background-color: #ff0000;
+  color: white;
+  text-align: center;
+  border-radius: 50px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.enfeite {
+  background-color: #ff0000;
+  color: white;
+  text-align: center;
+  border-radius: 50px;
+  width: 700px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+img {
+  width: 50px;
+  height: 50px;
+  align-items: start;
+}
+footer {
+  background-color: #ff0000;
+  color: white;
+  text-align: center;
+  border-radius: 50px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+table img {
+    width: 120px;
+    height: 120px;
+}
